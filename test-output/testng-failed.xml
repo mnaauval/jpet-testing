@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nexsoft.test.SignUpTest">
+      <class name="com.nexsoft.test.LoginTest">
         <methods>
-          <include name="blankRepPasswd"/>
-          <include name="goToUrl"/>
-          <include name="closeConn"/>
           <include name="init"/>
-          <include name="validRepPasswd"/>
+          <include name="goToUrl"/>
+          <include name="validLogin"/>
+          <include name="closeConn"/>
         </methods>
-      </class> <!-- com.nexsoft.test.SignUpTest -->
+      </class> <!-- com.nexsoft.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

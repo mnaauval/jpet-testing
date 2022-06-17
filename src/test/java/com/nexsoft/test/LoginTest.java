@@ -35,7 +35,7 @@ public class LoginTest {
 	@Test(priority = 1)
 	public void validLogin() {
 		signIn.login("kaeka", "admin123");
-		util.sleep(3000);
+		util.sleep(10000);
 	}
 
 	@AfterClass

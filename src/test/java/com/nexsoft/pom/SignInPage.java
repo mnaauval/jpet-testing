@@ -30,6 +30,12 @@ public class SignInPage {
 	public CatalogActionPage login(String UID, String password) {
 		userID.sendKeys(UID);
 		passwd.sendKeys(password);
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		loginBtn.click();
 		return PageFactory.initElements(driver, CatalogActionPage.class);
 	}
