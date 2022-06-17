@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SuiteTest">
+	<test name="User Athentication">
+
+		<classes>
+			<class name="com.nexsoft.test.FrontPageTest"></class>
+			<class name="com.nexsoft.test.SignUpTest"></class>
+			<class name="com.nexsoft.test.LoginTest"></class>
+		</classes>
+
+	</test>
+</suite>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="12" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-17T15:23:30 ICT" name="Default suite" finished-at="2022-06-17T15:23:52 ICT" duration-ms="21755">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T15:23:30 ICT" name="Default test" finished-at="2022-06-17T15:23:52 ICT" duration-ms="21755">
+      <class name="com.nexsoft.test.SignUpTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:30 ICT" name="init" finished-at="2022-06-17T15:23:33 ICT" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:33 ICT" name="goToUrl" finished-at="2022-06-17T15:23:34 ICT" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="signUpEmptyField()[pri:1, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:34 ICT" name="signUpEmptyField" finished-at="2022-06-17T15:23:34 ICT" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpEmptyField -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:34 ICT" name="goToUrl" finished-at="2022-06-17T15:23:35 ICT" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="blankUID()[pri:2, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:35 ICT" name="blankUID" finished-at="2022-06-17T15:23:35 ICT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUID -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:35 ICT" name="goToUrl" finished-at="2022-06-17T15:23:35 ICT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="textUID()[pri:3, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:35 ICT" name="textUID" finished-at="2022-06-17T15:23:36 ICT" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textUID -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:36 ICT" name="goToUrl" finished-at="2022-06-17T15:23:36 ICT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="numUID()[pri:4, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:36 ICT" name="numUID" finished-at="2022-06-17T15:23:37 ICT" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numUID -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:37 ICT" name="goToUrl" finished-at="2022-06-17T15:23:37 ICT" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="spCharUID()[pri:5, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:37 ICT" name="spCharUID" finished-at="2022-06-17T15:23:38 ICT" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spCharUID -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:38 ICT" name="goToUrl" finished-at="2022-06-17T15:23:38 ICT" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="validUID()[pri:6, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:38 ICT" name="validUID" finished-at="2022-06-17T15:23:39 ICT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUID -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:39 ICT" name="goToUrl" finished-at="2022-06-17T15:23:39 ICT" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="newPasswd_lenSix()[pri:7, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:39 ICT" name="newPasswd_lenSix" finished-at="2022-06-17T15:23:40 ICT" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPasswd_lenSix -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:40 ICT" name="goToUrl" finished-at="2022-06-17T15:23:41 ICT" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="validNewPasswd_lenNotSix()[pri:8, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:41 ICT" name="validNewPasswd_lenNotSix" finished-at="2022-06-17T15:23:41 ICT" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswd_lenNotSix -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:41 ICT" name="goToUrl" finished-at="2022-06-17T15:23:42 ICT" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="validNewPasswd_spChar()[pri:9, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:42 ICT" name="validNewPasswd_spChar" finished-at="2022-06-17T15:23:43 ICT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswd_spChar -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:43 ICT" name="goToUrl" finished-at="2022-06-17T15:23:43 ICT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="validNewPasswd_noSpChar()[pri:10, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:43 ICT" name="validNewPasswd_noSpChar" finished-at="2022-06-17T15:23:44 ICT" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswd_noSpChar -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:44 ICT" name="goToUrl" finished-at="2022-06-17T15:23:44 ICT" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="blankNewPasswd()[pri:11, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:44 ICT" name="blankNewPasswd" finished-at="2022-06-17T15:23:45 ICT" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankNewPasswd -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:45 ICT" name="goToUrl" finished-at="2022-06-17T15:23:45 ICT" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="validNewPasswd()[pri:12, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:45 ICT" name="validNewPasswd" finished-at="2022-06-17T15:23:46 ICT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewPasswd -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:46 ICT" name="goToUrl" finished-at="2022-06-17T15:23:46 ICT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="blankRepPasswd()[pri:13, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:46 ICT" name="blankRepPasswd" finished-at="2022-06-17T15:23:47 ICT" duration-ms="938" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [null]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.nexsoft.test.SignUpTest.blankRepPasswd(SignUpTest.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankRepPasswd -->
+        <test-method is-config="true" signature="goToUrl()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:47 ICT" name="goToUrl" finished-at="2022-06-17T15:23:48 ICT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUrl -->
+        <test-method signature="validRepPasswd()[pri:13, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:48 ICT" name="validRepPasswd" finished-at="2022-06-17T15:23:49 ICT" duration-ms="836" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [admin123] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [admin123] but found [null]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.nexsoft.test.SignUpTest.validRepPasswd(SignUpTest.java:116)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRepPasswd -->
+        <test-method is-config="true" signature="closeConn()[pri:0, instance:com.nexsoft.test.SignUpTest@2794eab6]" started-at="2022-06-17T15:23:49 ICT" name="closeConn" finished-at="2022-06-17T15:23:52 ICT" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConn -->
+      </class> <!-- com.nexsoft.test.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
