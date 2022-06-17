@@ -22,6 +22,7 @@ public class CatalogActionPage {
 	}
 	
 	public CatalogActionPage clickLogout() {
+		
 		return PageFactory.initElements(driver, CatalogActionPage.class);
 	}
 }

@@ -19,6 +19,8 @@ public class SignInPage {
 	private WebElement userID;
 	@FindBy(xpath = "//input[@name='password']")
 	private WebElement passwd;
+	@FindBy(css = "input[value='Login']")
+	private WebElement loginBtn;
 	
 	public UserAuthPage clickRegister() {
 		registerBtn.click();
@@ -28,6 +30,7 @@ public class SignInPage {
 	public CatalogActionPage login(String UID, String password) {
 		userID.sendKeys(UID);
 		passwd.sendKeys(password);
+		loginBtn.click();
 		return PageFactory.initElements(driver, CatalogActionPage.class);
 	}
 }
